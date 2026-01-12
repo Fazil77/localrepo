@@ -1,3 +1,27 @@
-p {
+p{
+    color: #ffff00;
+}
+
+h1{
+    color: rgb(0, 255, 0);
+
+}
+list {
+    color: #ff87f4;
+}   
+button {
+    background-color: green;
+    color: white;
+}
+
+#box{
+    background-color: blue;
+}
+
+.heading {
     color: red;
+}
+
+a {
+    text-decoration: none;
 }
