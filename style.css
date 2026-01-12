@@ -1,10 +1,15 @@
+*{
+    font-family: times New Roman;
+    
+}
 p{
     color: #ffff00;
 }
 
 h1{
     color: rgb(0, 255, 0);
-
+text-align: center;
+text-transform: capitalize;
 }
 list {
     color: #ff87f4;
@@ -24,4 +29,16 @@ button {
 
 a {
     text-decoration: none;
+}
+ 
+#h1 {
+    font-weight: bold;
+ }
+#outer
+{
+    text-size=25px;
+}
+#inner{
+    height: 100px;
+    font-size: 10px;
 }
