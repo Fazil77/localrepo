@@ -1,7 +1,10 @@
-*{
-    font-family: times New Roman;
-    
+ /*
+ *{
+    padding: 0;
+    margin: 0;
+    color: white;
 }
+
 p{
     color: #ffff00;
 }
@@ -15,7 +18,7 @@ list {
     color: #ff87f4;
 }   
 button {
-    background-color: green;
+    background-color: #f08804;
     color: white;
 }
 
@@ -29,6 +32,7 @@ button {
 
 a {
     text-decoration: none;
+    margin-right: 200px;
 }
  
 #h1 {
@@ -41,4 +45,54 @@ a {
 #inner{
     height: 100px;
     font-size: 10px;
+}
+#today{
+    background-color: Green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+#logo{
+    color:#f08804;
+    font-size: 25px;
+} */
+*{
+    color:white
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+#logo{
+    color:#f08804;
+    font-size: 25px;
+} 
+button {
+    background-color: #f08804;
+    color: white;
+}
+a {
+    margin-right: 200px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#content{
+    height: 625px;
+}
+
+footer{
+background-color: #0f1111;
+color:white;
+text-align: center;
 }
