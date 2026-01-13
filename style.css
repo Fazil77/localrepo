@@ -63,11 +63,12 @@ a {
     font-size: 25px;
 } */
 *{
-    color:white
+    color:blue;
 }
 #navbar{
     height: 60px;
     background-color: #0f1111;
+    flex-align: start;
 }
 #logo{
     color:#f08804;
@@ -80,7 +81,7 @@ button {
 a {
     margin-right: 200px;
 }
-.box{
+.box {
     height: 100px;
     width: 100px;
     border: 2px solid black;
@@ -88,11 +89,48 @@ a {
 }
 
 #content{
-    height: 625px;
+    height: 200px;
 }
 
 footer{
 background-color: #0f1111;
 color:white;
 text-align: center;
+}
+
+.position{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    position: static;
+    top: 30px
+}
+#box2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+#nature{
+    height: 50px;
+    width: 50px;
+    background-image: url('book.jpg');
+    background-size: cover;
+    position: fixed;
+    right: 0px
+}
+.navbar1{
+   background-color: pink; 
+   display: flex;
+   justify-content: space-evenly;
+}
+li{
+    list-style-type:none;
+    display: inline;
+    color: red;
+
+
 }
