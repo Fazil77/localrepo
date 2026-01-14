@@ -151,8 +151,9 @@ li{
     height: 100px;
     width: 100px;
     background-color: yellow;
+    transform: translate(44px);
 }
-@media (max-width:300px){
+/* @media (max-width:300px){
     #media{
         background-color: green;
     }
@@ -172,4 +173,29 @@ li{
     #media{
         background-color: black;
     }
-}
+} */
+.animation{
+    height: 1000px;
+    width: 1000px;
+ }
+
+ #boxmodel:hover{
+
+  background-color: red;
+  color: white;
+  font-size:30px;
+ }
+
+ #boxmodel{
+    height: 200px;
+    width: 200px;
+  background-color: maroon;
+  transition-property: all;
+  /* transition-duration: 2s;
+    transition-timing-function: steps(3); */
+    transition-delay: 2s;
+    position: relative;
+    left:700px;
+    /* rotate: z 90deg; */
+    transform: skew(50px);
+ }
