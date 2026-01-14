@@ -199,3 +199,19 @@ li{
     /* rotate: z 90deg; */
     transform: skew(50px);
  }
+ #circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid blue;
+    border-top: 20px solid red;
+    animation: spin 2s linear infinite;
+ }
+@keyframes spin{
+        from{
+             transform: rotate(0deg);
+        }
+        to{ 
+            transform: rotate(360deg);
+        }
+}
