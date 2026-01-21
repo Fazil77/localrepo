@@ -117,6 +117,12 @@ span{
     justify-content: center;
     align-items: flex-end;
 }
+.hero-link{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
 .message{
     background-color: white;
     height: 40px;
