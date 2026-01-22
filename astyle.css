@@ -3,6 +3,66 @@
     font-family: Arial;
     border: border-box;
 }
+@media (max-width: 700px){
+
+    .navbar{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .nav-search{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-signin,
+    .orders{
+        display: none;
+    }
+    .hero-section{
+        height: 300px;
+        background-position: center;
+    }
+
+    .message{
+        width: 95%;
+        font-size: 0.75rem;
+        text-align: center;
+    }
+}
+@media (max-width: 1024px){
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .card,
+    .img{
+        width: 45%;
+    }
+}
+@media (max-width: 600px){
+    .card,
+    .img{
+        width: 100%;
+    }
+
+    .row{
+        gap: 15px;
+    }
+}
+@media (max-width: 600px){
+    .grid-item img{
+        height: 90px;
+    }
+
+    .kitchen-main img{
+        height: 140px;
+    }
+}
+
+
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -46,8 +106,9 @@
     display: flex;
     justify-content: space-evenly;
     background-color: pink;
-    width: 690px;
+    width: 970px;
     height:40px;
+    border-radius: 10px;
 }
 .nav-search:hover{
     border: 2px solid orange;
@@ -111,7 +172,7 @@ span{
 }
 .hero-section{
     background-image: url("https://m.media-amazon.com/images/I/71GGl3UpyOL._SX3000_.jpg"); 
-    height: 600px;
+    height: 300px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -286,4 +347,58 @@ span{
     font-size: 0.75rem;
     margin-top: 4px;
 }
+footer{
+    margin-top: 15px;
 
+}
+.foot-panel1{
+    background-color: #37475a ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    height: 50px;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color:white;
+    height:500px;
+    display: flex;
+    display: space-evenly;
+
+}
+.foot-panel2 ul{
+    margin-top: 20px ;
+}
+ul a{
+    display: block ;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color:white;
+    border: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; */
+}
+.pages{
+font-size: 0.7rem;
+}
+.copyright{
+padding: 5px;
+}
