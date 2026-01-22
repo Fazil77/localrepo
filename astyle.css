@@ -366,7 +366,9 @@ footer{
     height:500px;
     display: flex;
     display: space-evenly;
-
+    justify-content: center;
+    padding: 50px;
+    
 }
 .foot-panel2 ul{
     margin-top: 20px ;
@@ -391,10 +393,7 @@ ul a{
     color: white;
     font-size: 0.7rem;
     text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px; */
+    height: 80px;
 }
 .pages{
 font-size: 0.7rem;
