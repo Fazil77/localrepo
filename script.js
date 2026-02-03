@@ -51,10 +51,57 @@
 // else{
 //     console.log("you are not eligible to vote");
 // }
-let num=10;
-if (num%2 ==0){
-    console.log("The number is even");
+// let num=10;
+// if (num%2 ==0){
+//     console.log("The number is even");
+// }
+// else{
+//     console.log("The number is odd");
+// }
+// let mode="bingloo";
+// let color;
+// if (mode=="dark"){
+//     color="black";
+// }
+// else if(mode=="bingloo"){
+//     color="blue";
+// }
+// else if (mode=="yellow"){
+//     color="yellow";
+// }
+// else{
+//     color="white";
+// }
+// console.log("The color is ", color);
+// let age= 4;
+// let result= age>=18 ? "adult":"minor";
+// console.log("The result is ", result);
+// alert ("Hello! Welcome to the website.");
+// let input= prompt("Input number: ");
+// if (input%5==0){jjjjjjj
+//     console.log(input ,"is divisible by 5");
+// } 
+// else{
+//     console.log(input, "is not divisible by 5");
+// }
+let marks=prompt ("Enter yout marks:")
+let grade;
+if (marks>=90 && marks <=100){
+    grade="Grade A";
+}
+else if(marks>=70 && marks<90){
+    grade="Grade B";
+}
+else if (marks>=60 && marks<70){
+    grade="Grade C";
+}
+else if(marks>=50 && marks<60){
+    grade="Grade D";
+}
+else if(marks>=0 && marks <50){
+    grade="Grade F";
 }
 else{
-    console.log("The number is odd");
+    grade="Invalid marks entered";
 }
+console.log("Your grade is ", grade);
